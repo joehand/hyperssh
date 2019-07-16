@@ -27,7 +27,7 @@ sw.once('connection', function (connection) {
   })
 
   proxy.listen(0, function () {
-    spawn('ssh', [ '-p', proxy.address().port, usr + '@localhost' ].concat(argv), {
+    spawn('sshuttle', [ '-r', `${usr}@localhost:${proxy.address().port}`, '0/0' ].concat(argv), {
       stdio: 'inherit'
     }).once('exit', function (code) {
       process.exit(code)

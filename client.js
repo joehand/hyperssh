@@ -7,7 +7,7 @@ const pump = require('pump')
 const os = require('os')
 
 if (!process.argv[2]) {
-  console.error('Usage: hyperssh [user@]name')
+  console.error('Usage: hypersshuttle [user@]name')
   process.exit(1)
 }
 

@@ -1,9 +1,9 @@
-# hyperssh
+# hypersshuttle
 
 Run [sshuttle](https://sshuttle.readthedocs.io) over [hyperswarm](https://github.com/hyperswarm/hyperswarm)!
 
 ```
-npm install -g hyperssh
+npm install -g hypersshuttle
 ```
 
 On a server or some laptop with ssh-server running run
@@ -15,7 +15,7 @@ hyperssh-server some-name-here-you-can-remember
 Then on another client to ssh to that server do
 
 ```sh
-hyperssh user@some-name-here-you-can-remember
+hypersshuttle user@some-name-here-you-can-remember
 ```
 
 That's it! No more remembering hostnames :D

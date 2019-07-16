@@ -1,6 +1,6 @@
 # hyperssh
 
-Run SSH over [hyperswarm](https://github.com/hyperswarm/hyperswarm)!
+Run [sshuttle](https://sshuttle.readthedocs.io) over [hyperswarm](https://github.com/hyperswarm/hyperswarm)!
 
 ```
 npm install -g hyperssh
